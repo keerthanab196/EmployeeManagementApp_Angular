@@ -1,0 +1,29 @@
+
+<h2 class="text-center mt-4 mb-3">Details of the Employee</h2>
+
+<div class="container">
+    <div class="card shadow-sm p-4 mx-auto" style="max-width: 500px;">
+      
+            <div class="mb-3">
+                <label class="form-label">Name: </label>
+                    <input type="text" class="form-control" placeholder="Enter name" id="ename" name="ename" [(ngModel)]="employee.empName" required readonly>
+                
+                    
+               
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Address: </label>
+                    <input type="text" class="form-control" [(ngModel)]="employee.empAddress" id="addr" name="addr" readonly>
+               
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Salary: </label>
+                    <input type="text" class="form-control" [(ngModel)]="employee.empSalary" placeholder="Salary" readonly>
+               
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" (click)="editUserDetails(employee)">CLICK TO EDIT</button>
+            </div>
+        
+    </div>   
+</div>

@@ -1,0 +1,45 @@
+.app-banner {
+    background-color:cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-banner h1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner-link {
+    color: white;
+ 
+    text-decoration: none; /* Remove underline */
+    font-family: Arial, sans-serif;
+}
+
+.banner-title {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.banner-links {
+    display: flex;
+    gap: 20px;  /* Space between links */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease-in-out;
+}
